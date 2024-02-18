@@ -1,0 +1,26 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "creates a professional readme using the commandline",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magicaryn/readmeGenerator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "Caryn Behnke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Magicaryn/readmeGenerator/issues"
+  },
+  "homepage": "https://github.com/Magicaryn/readmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  }
+}
