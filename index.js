@@ -1,4 +1,3 @@
-
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -15,7 +14,11 @@ const generateHTML = ({ name, description, usage, issues, contribution, URL}) =>
     <header>
     <div class="container">
  <h1>${name}</h1>
-
+<h2>${description}</h2>
+<p>${usage}</p>
+<p>${issues}</p>
+<p>${contribution}</p>
+<p>${URL}</p>
      </div>
   </header>
 </body>
@@ -55,7 +58,7 @@ inquirer
     },
    
   ])
-  
+
   .then((response) => {
     const htmlContent = generateHTML(response);
 
