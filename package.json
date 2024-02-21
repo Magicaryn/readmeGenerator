@@ -18,9 +18,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Magicaryn/readmeGenerator/issues"
-  },
+  },git 
   "homepage": "https://github.com/Magicaryn/readmeGenerator#readme",
   "dependencies": {
-    "inquirer": "^9.2.14"
+    "inquirer": "^8.2.4"
   }
 }
