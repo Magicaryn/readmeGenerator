@@ -28,36 +28,36 @@ return ''
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.name}
+  return `# ${data.Name}
   ${renderLicenseBadge(data.license)}
 
-  ## table of contents
-  *[description](#description)
-  *[usage](#usage)
-  *[issues](#issues)
-  *[contribution](#contribution)
+  ## Table of Contents
+  *[Description](#Description)
+  *[Usage](#Usage)
+  *[Issues](#Issues)
+  *[Contribution](#Contribution)
   *[URL](#URL)
-*${renderLicenseLink(data.license)}
+  *${renderLicenseLink(data.license)}
 
-  ## description
-  # ${data.description}
+  ## Description
+  ${data.Description}
 
-  ## usage
-  # ${data.usage}
+  ## Usage
+  ${data.Usage}
 
-  ## issues
-  # ${data.issues}
+  ## Issues
+  ${data.Issues}
 
-  ## contribtion
-  # ${data.contribution}
+  ## Contribution
+  ${data.Contribution}
 
   ## URL
-  # ${data.URL}
+  ${data.URL}
 
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  For questions contact me at [Email me](mailto:${data.email})
+  For questions contact me at [Email](mailto:${data.email})
 
   Check out my Github at [${data.github}](https://github.com/${data.github}/)
 

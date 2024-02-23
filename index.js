@@ -8,48 +8,48 @@ inquirer
     {
       type: 'input',
       message: 'What is the project name?',
-      name: 'name',
+      name: 'Name',
     },
     {
       type: 'input',
-      message: 'Give a short description of the application and what inspired you to make it',
-      name: 'description',
+      message: 'Give a short description of the application and what inspired you to make it:',
+      name: 'Description',
     },
     {
       type: 'input',
       message: 'How do you use the application?',
-      name: 'usage',
+      name: 'Usage',
     },
     {
       type: 'input',
       message: 'How do i report issues?',
-      name: 'issues',
+      name: 'Issues',
     },
     {
       type: 'input',
       message: 'How can i make contributions?',
-      name: 'contribution',
+      name: 'Contribution',
     },
     {
       type: 'input',
-      message: 'URL to deployed application',
+      message: 'URL to deployed application:',
       name: 'URL',
     },
     {
       type: 'inpu',
-      message: 'Type your email',
+      message: 'Enter your email:',
       name: 'email',
     },
     {
       type: 'input',
-      message: 'Type your github',
+      message: 'Enter your Github:',
       name: 'github',
     },
     {
       type: 'list',
       message: 'What license is this under?',
       name: 'license',
-      choices: ['MIT', 'APACHE 2.0', 'BSD 3', 'None']
+      choices: ['MIT', 'APACHE.2.0', 'BSD.3', 'None']
     }
 
   ])
@@ -60,7 +60,7 @@ inquirer
     console.log(response)
     const readmeContent = generateMarkdown(response);
 
-    fs.writeFile(`readme.md`,readmeContent, (err) =>
+    fs.writeFile(`readme1.md`,readmeContent, (err) =>
       err ? console.log(err) : console.log(`successfully created readme!`)
     );
   });
