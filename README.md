@@ -10,4 +10,4 @@ https://github.com/Magicaryn/readmeGenerator
 
 link to walkthrough video:
 
-C:\Users\wyteg\Desktop\bootcampp\readmeGenerator\utils\2024-02-22 20-27-06.mkv
+https://youtu.be/lP7wxe9JSn0
