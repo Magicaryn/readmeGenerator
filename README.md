@@ -1,36 +1,12 @@
-# test
-  ![githublicense](https://img.shields.io/badge/license-MIT-green.svg)
+README Generator
 
-  ## table of contents
-  *[description](#description)
-  *[usage](#usage)
-  *[issues](#issues)
-  *[contribution](#contribution)
-  *[URL](#URL)
-*[license](#license)
+This application is a readme generator and is made to create a readme in an easy way. The reason this application is useful is that you take less time making a readme and will allow for more time to utilize working on the project. Its functionality is simple, run node index.js through your terminal that has inquirer installed and you will be prompted with several questions related to the project you are creating the readme for. Once you complete the questions it will provide you with a readme.md that you can use in your project that includes a table of contents, description, usage, license, a link to the deployed page, as well as your email so people can reach out to you with any questions, contributions or issues.
 
-  ## description
-  # t
+This was a cool way to introduce node and learn the ways that node can be useful. A large thing i learned with this project was that you need to be sure to specify the correct version of inquirer in your package.json or it will not work!
 
-  ## usage
-  # t
+link to github repo:
 
-  ## issues
-  # t
+https://github.com/Magicaryn/readmeGenerator
 
-  ## contribtion
-  # t
-
-  ## URL
-  # t
-
-  ## license section
-
-This project is licensed under MIT  
-  
-
-  ## Questions
-  For questions contact me at [Email me](mailto:t)
-
-  Check out my Github at [t](https://github.com/t/)
+link to walkthrough video:
 
